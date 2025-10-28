@@ -1,0 +1,722 @@
+[28Oct2025 00:57:05.833] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[28Oct2025 00:57:05.839] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.16 by Ubuntu; OS Linux arch amd64 version 6.8.0-1030-azure
+[28Oct2025 00:57:07.492] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[28Oct2025 00:57:07.557] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/NEW-REPOSITORY/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[28Oct2025 00:57:07.894] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/NEW-REPOSITORY/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[28Oct2025 00:57:07.895] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/NEW-REPOSITORY/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[28Oct2025 00:57:07.896] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/NEW-REPOSITORY/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[28Oct2025 00:57:07.897] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/NEW-REPOSITORY/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[28Oct2025 00:57:08.139] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 13 dependencies adding them to mods collection
+[28Oct2025 00:57:10.711] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[28Oct2025 00:57:10.867] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [com.sonicether.soundphysics.MixinConnector]
+[28Oct2025 00:57:10.869] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[28Oct2025 00:57:10.892] [main/WARN] [mixin/]: Reference map 'naturalist-forge-forge-refmap.json' for naturalist.mixins.json could not be read. If this is a development environment you can ignore this message
+[28Oct2025 00:57:11.012] [main/WARN] [mixin/]: Reference map 'modonomicon.refmap.json' for modonomicon.mixins.json could not be read. If this is a development environment you can ignore this message
+[28Oct2025 00:57:11.014] [main/WARN] [mixin/]: Reference map 'modonomicon.refmap.json' for modonomicon.forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[28Oct2025 00:57:11.061] [main/INFO] [Puzzles Lib/]: Loading 69 mods:
+	- alexscaves 1.1.5
+	- alexsmobs 1.22.9
+	- ancient_golems 1.0.3.5
+	- appleskin 2.5.1+mc1.20.1
+	- aquaculture 2.5.2
+	- architectury 9.2.14
+	- artifacts 9.5.13
+		|-- expandability 9.0.4
+		\-- mixinextras 0.3.5
+	- balm 7.3.9
+		\-- kuma_api 20.1.8
+	- bountiful 6.0.4+1.20.1
+	- brewery 1.1.9
+	- caelus 3.2.0+1.20.1
+	- chococraft 0.9.12
+	- citadel 2.6.0
+	- cloth_config 11.1.136
+	- curios 5.14.1+1.20.1
+	- cyclopscore 1.19.5
+	- doapi 1.2.15
+		\-- terraform 7.0.1
+	- elevatorid 1.20.1-lex-1.9
+	- emotecraft 2.2.7-b.build.50
+	- enchantinginfuser 8.0.3
+	- epicfight 20.9.5
+	- evilcraft 1.2.48
+		\-- evilcraftcompat 1.2.48
+	- farmersdelight 1.20.1-1.2.4
+	- forge 47.3.7
+	- galosphere 1.20.1-1.4.1
+	- geckolib 4.4.9
+	- gobber2 2.8.9
+	- iceandfire 2.1.13-1.20.1
+	- interaction_boxes 0.693
+	- inventoryhud 3.4.26
+	- inventoryprofilesnext 1.10.11
+	- irons_spellbooks 1.20.1-3.4.0.5
+	- jade 11.11.1+forge
+	- jei 15.20.0.116
+	- kambrik 6.1.1+1.20.1
+	- kotlinforforge 4.11.0
+	- libipn 4.0.2
+	- mca 7.5.19+1.20.1
+	- minecraft 1.20.1
+	- modonomicon 1.77.3
+	- mowziesmobs 1.6.4
+	- myserveriscompatible 1.0
+	- naturalist 4.0.3
+	- nullscape 1.2.8
+	- occultism 1.140.2
+	- playeranimator 1.0.2-rc1+1.20
+	- puzzleslib 8.1.25
+		\-- puzzlesaccessapi 8.0.7
+	- rightclickharvest 3.2.3+1.20.1-forge
+	- roundabout 2.1.3
+	- securitycraft 1.9.10
+	- smartbrainlib 1.15
+	- sophisticatedbackpacks 3.20.5.1044
+	- sophisticatedcore 0.6.26.668
+	- sound_physics_remastered 1.20.1-1.4.5
+	- taxbt 1.0.2
+	- terralith 2.5.4
+	- theorcs 1.0-FORGE-1.20.x
+	- tht 6.2.11.3
+	- tombstone 8.8.6
+	- uniquedungeons 0.70.3
+	- vinery 1.4.32
+	- weaponmaster 1.4.2-1.19.2
+	- wom 20.1.8.5.5
+	- xaerominimap 24.4.0
+	- xaeroworldmap 1.39.0
+[28Oct2025 00:57:12.495] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/entity/layers/ItemInHandLayer (java.lang.ClassNotFoundException: net.minecraft.client.renderer.entity.layers.ItemInHandLayer)
+[28Oct2025 00:57:12.496] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.entity.layers.ItemInHandLayer was not found roundabout.mixins.json:items.BowlerHatItemInHandLayerMixin
+[28Oct2025 00:57:12.503] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/renderer/entity/ItemRenderer for invalid dist DEDICATED_SERVER
+[28Oct2025 00:57:12.503] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/entity/ItemRenderer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/renderer/entity/ItemRenderer for invalid dist DEDICATED_SERVER)
+[28Oct2025 00:57:12.504] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.entity.ItemRenderer was not found roundabout.mixins.json:items.BowlerHatItemRendererMixin
+[28Oct2025 00:57:12.508] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/renderer/entity/player/PlayerRenderer for invalid dist DEDICATED_SERVER
+[28Oct2025 00:57:12.508] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/entity/player/PlayerRenderer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/renderer/entity/player/PlayerRenderer for invalid dist DEDICATED_SERVER)
+[28Oct2025 00:57:12.508] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.entity.player.PlayerRenderer was not found roundabout.mixins.json:items.BowlerHatPlayerRendererMixin
+[28Oct2025 00:57:12.512] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/renderer/entity/layers/HumanoidArmorLayer for invalid dist DEDICATED_SERVER
+[28Oct2025 00:57:12.513] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/entity/layers/HumanoidArmorLayer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/renderer/entity/layers/HumanoidArmorLayer for invalid dist DEDICATED_SERVER)
+[28Oct2025 00:57:12.513] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.entity.layers.HumanoidArmorLayer was not found roundabout.mixins.json:items.BowlerHatUnRenderHelmetMixin
+[28Oct2025 00:57:12.706] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/inventory/InventoryScreen for invalid dist DEDICATED_SERVER
+[28Oct2025 00:57:12.707] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/inventory/InventoryScreen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/inventory/InventoryScreen for invalid dist DEDICATED_SERVER)
+[28Oct2025 00:57:12.707] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.inventory.InventoryScreen was not found roundabout.mixins.json:justice.JusticeFixScreenBugInventoryScreenMixin
+[28Oct2025 00:57:13.196] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
+[28Oct2025 00:57:18.640] [main/WARN] [mixin/]: @Final field f_31427_:[I in mixins.epicfight.json:MixinWitherBoss should be final
+[28Oct2025 00:57:18.640] [main/WARN] [mixin/]: @Final field f_31428_:[I in mixins.epicfight.json:MixinWitherBoss should be final
+[28Oct2025 00:57:21.109] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.LivingEntity from class yesman.epicfight.world.capabilities.entitypatch.LivingEntityPatch
+[28Oct2025 00:57:21.109] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.LivingEntity from class yesman.epicfight.world.capabilities.entitypatch.LivingEntityPatch
+[28Oct2025 00:57:21.110] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.LivingEntity from class yesman.epicfight.world.capabilities.entitypatch.LivingEntityPatch
+[28Oct2025 00:57:21.110] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.LivingEntity from class yesman.epicfight.world.capabilities.entitypatch.LivingEntityPatch
+[28Oct2025 00:57:23.375] [modloading-worker-0/INFO] [epicfight/]: Loaded mod compat: GeckolibCompat
+[28Oct2025 00:57:23.381] [modloading-worker-0/INFO] [epicfight/]: Loaded mod compat: IceAndFireCompat
+[28Oct2025 00:57:23.458] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[28Oct2025 00:57:23.463] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
+[28Oct2025 00:57:23.481] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
+[28Oct2025 00:57:23.485] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
+[28Oct2025 00:57:23.489] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
+[28Oct2025 00:57:23.491] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
+[28Oct2025 00:57:23.495] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/ea038224ea783d40b2863f52239e2604
+[28Oct2025 00:57:23.496] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/97ad64b7ecaf33209991c4f031501a58
+[28Oct2025 00:57:24.478] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[28Oct2025 00:57:24.478] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[28Oct2025 00:57:24.826] [modloading-worker-0/INFO] [libIPN/]: [libIPN] libIPN - init in Kotlin
+[28Oct2025 00:57:25.296] [modloading-worker-0/INFO] [thedarkcolour.kotlinforforge.test.KotlinForForge/]: Kotlin For Forge Enabled!
+[28Oct2025 00:57:25.462] [modloading-worker-0/INFO] [roundabout/]: Loaded local config
+[28Oct2025 00:57:25.587] [modloading-worker-0/INFO] [roundabout/]: Loaded local config
+[28Oct2025 00:57:25.617] [modloading-worker-0/INFO] [roundabout/]: Loaded server config
+[28Oct2025 00:57:25.635] [modloading-worker-0/INFO] [roundabout/]: Loaded advanced config
+[28Oct2025 00:57:26.052] [modloading-worker-0/INFO] [roundabout/]: Hello Forge world!
+[28Oct2025 00:57:26.075] [modloading-worker-0/INFO] [roundabout/]: Hello to roundabout on server
+[28Oct2025 00:57:26.076] [modloading-worker-0/ERROR] [roundabout/]: Exception caught while registering advancement criteria!
+[28Oct2025 00:57:26.388] [modloading-worker-0/INFO] [Inventory Profiles Next/]: [Inventory Profiles Next] Inventory Profiles Next - init in Kotlin
+[28Oct2025 00:57:26.714] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id brewery:alcohol_sync_request
+[28Oct2025 00:57:26.716] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id brewery:drink_alcohol
+[28Oct2025 00:57:26.819] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for puzzleslib:main
+[28Oct2025 00:57:26.900] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility/]: ExpandAbility here, who dis?
+[28Oct2025 00:57:26.945] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for enchantinginfuser:main
+[28Oct2025 00:57:36.601] [modloading-worker-0/INFO] [com.sky.weaponmaster.WeaponMaster/]: Total varients loaded: 6425544
+[28Oct2025 00:57:36.602] [modloading-worker-0/INFO] [com.sky.weaponmaster.WeaponMaster/]: Total varients loaded (inc. passives + abilities): 3675411168
+[28Oct2025 00:57:40.952] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / mca:female_zombie_villager] was not realized!
+[28Oct2025 00:57:40.953] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / mca:male_zombie_villager] was not realized!
+[28Oct2025 00:57:40.953] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / mca:male_villager] was not realized!
+[28Oct2025 00:57:40.953] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / brewery:beer_elemental] was not realized!
+[28Oct2025 00:57:40.953] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / vinery:wandering_winemaker] was not realized!
+[28Oct2025 00:57:40.953] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / mca:female_villager] was not realized!
+[28Oct2025 00:57:40.953] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / mca:grim_reaper] was not realized!
+[28Oct2025 00:57:40.954] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / vinery:mule] was not realized!
+[28Oct2025 00:57:41.241] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / brewery:beer_elemental] was not realized!
+[28Oct2025 00:57:41.242] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / vinery:wandering_winemaker] was not realized!
+[28Oct2025 00:57:41.242] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / vinery:mule] was not realized!
+[28Oct2025 00:57:41.243] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / brewery:beer_elemental] was not realized!
+[28Oct2025 00:57:41.243] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / vinery:wandering_winemaker] was not realized!
+[28Oct2025 00:57:41.243] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / vinery:mule] was not realized!
+[28Oct2025 00:57:41.245] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / brewery:beer_elemental] was not realized!
+[28Oct2025 00:57:41.245] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / vinery:wandering_winemaker] was not realized!
+[28Oct2025 00:57:41.245] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / vinery:mule] was not realized!
+[28Oct2025 00:57:41.248] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / brewery:beer_elemental] was not realized!
+[28Oct2025 00:57:41.253] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / brewery:beer_elemental] was not realized!
+[28Oct2025 00:57:41.331] [main/INFO] [evilcraft/]: 2205 possible Broom base combinations are ready for flying!
+[28Oct2025 00:57:41.847] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class yesman.epicfight.world.capabilities.entitypatch.player.PlayerPatch
+[28Oct2025 00:57:41.851] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.becks.uniquedungeons.common.entities.city_snow_mobs.catapults.CitySnowCatapult from class com.becks.uniquedungeons.common.entities.city_snow_mobs.big_bob.CitySnowBigBob
+[28Oct2025 00:57:41.851] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.becks.uniquedungeons.common.entities.city_snow_mobs.catapults.CitySnowCatapult from class com.becks.uniquedungeons.common.entities.city_snow_mobs.big_bob.CitySnowBigBob
+[28Oct2025 00:57:42.009] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[28Oct2025 00:57:42.009] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[28Oct2025 00:57:42.009] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[28Oct2025 00:57:42.010] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[28Oct2025 00:57:42.010] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[28Oct2025 00:57:42.010] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[28Oct2025 00:57:42.010] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[28Oct2025 00:57:42.010] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+[28Oct2025 00:57:42.012] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[28Oct2025 00:57:42.012] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[28Oct2025 00:57:42.012] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[28Oct2025 00:57:42.013] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[28Oct2025 00:57:42.013] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[28Oct2025 00:57:42.013] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[28Oct2025 00:57:42.013] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[28Oct2025 00:57:42.013] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[28Oct2025 00:57:42.014] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[28Oct2025 00:57:42.014] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[28Oct2025 00:57:42.014] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[28Oct2025 00:57:42.014] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+[28Oct2025 00:57:42.015] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[28Oct2025 00:57:42.019] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[28Oct2025 00:57:42.019] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+[28Oct2025 00:57:42.019] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[28Oct2025 00:57:42.020] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+[28Oct2025 00:57:42.020] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+[28Oct2025 00:57:42.020] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[28Oct2025 00:57:42.020] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[28Oct2025 00:57:42.020] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[28Oct2025 00:57:42.021] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[28Oct2025 00:57:42.021] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[28Oct2025 00:57:42.023] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[28Oct2025 00:57:42.027] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[28Oct2025 00:57:42.027] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[28Oct2025 00:57:42.029] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[28Oct2025 00:57:42.029] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[28Oct2025 00:57:42.029] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[28Oct2025 00:57:42.030] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.GrimReaperEntity from class forge.net.mca.util.network.datasync.CEnumParameter
+[28Oct2025 00:57:42.033] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.klikli_dev.occultism.common.entity.spirit.DjinniEntity from class com.klikli_dev.occultism.common.entity.spirit.FoliotEntity
+[28Oct2025 00:57:42.052] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[28Oct2025 00:57:42.052] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[28Oct2025 00:57:42.053] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[28Oct2025 00:57:42.053] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[28Oct2025 00:57:42.053] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[28Oct2025 00:57:42.053] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[28Oct2025 00:57:42.053] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[28Oct2025 00:57:42.053] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[28Oct2025 00:57:42.054] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[28Oct2025 00:57:42.212] [modloading-worker-0/INFO] [com.becks.uniquedungeons.UniqueDungeons/]: HELLO FROM COMMON SETUP
+[28Oct2025 00:57:42.212] [modloading-worker-0/INFO] [com.becks.uniquedungeons.UniqueDungeons/]: DIRT BLOCK >> minecraft:dirt
+[28Oct2025 00:57:42.379] [modloading-worker-0/INFO] [evilcraft/]: Registered packet handler.
+[28Oct2025 00:57:42.515] [modloading-worker-0/INFO] [io.github.jamalam360.rightclickharvest.RightClickHarvestModInit/]: Initialized
+[28Oct2025 00:57:42.676] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cyclopscore] Starting version check at https://raw.githubusercontent.com/CyclopsMC/Versions/master/forge_update/cyclops-core.json
+[28Oct2025 00:57:42.770] [modloading-worker-0/INFO] [com.klikli_dev.occultism.Occultism/]: Common setup complete.
+[28Oct2025 00:57:42.951] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cyclopscore] Found status: OUTDATED Current: 1.19.5 Target: 1.21.2
+[28Oct2025 00:57:42.954] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [evilcraft] Starting version check at https://raw.githubusercontent.com/CyclopsMC/Versions/master/forge_update/evilcraft.json
+[28Oct2025 00:57:42.971] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [evilcraft] Found status: OUTDATED Current: 1.2.48 Target: 1.2.58
+[28Oct2025 00:57:42.971] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzlesaccessapi] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzlesaccessapi.json
+[28Oct2025 00:57:42.991] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzlesaccessapi] Found status: BETA Current: 8.0.7 Target: null
+[28Oct2025 00:57:42.994] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sound_physics_remastered] Starting version check at https://update.maxhenkel.de/forge/sound_physics_remastered
+[28Oct2025 00:57:43.032] [main/INFO] [com.klikli_dev.occultism.Occultism/]: Registered compostable Items
+[28Oct2025 00:57:43.033] [modloading-worker-0/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 1/2 (Server)
+[28Oct2025 00:57:43.034] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[28Oct2025 00:57:43.035] [modloading-worker-0/INFO] [com.klikli_dev.occultism.Occultism/]: Dedicated server setup complete.
+[28Oct2025 00:57:43.036] [main/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 2/2 (Server)
+[28Oct2025 00:57:43.036] [main/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[28Oct2025 00:57:43.050] [modloading-worker-0/INFO] [io.redspace.ironsspellbooks.IronsSpellbooks/]: Got IMC []
+[28Oct2025 00:57:43.159] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
+[28Oct2025 00:57:43.176] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
+[28Oct2025 00:57:43.180] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
+[28Oct2025 00:57:43.182] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.geforcemods.securitycraft.compat.hudmods.JadeDataProvider
+[28Oct2025 00:57:43.184] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at ovh.corail.tombstone.compatibility.IntegrationJade
+[28Oct2025 00:57:43.691] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sound_physics_remastered] Found status: OUTDATED Current: 1.20.1-1.4.5 Target: 1.20.1-1.5.1
+[28Oct2025 00:57:43.692] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[28Oct2025 00:57:43.979] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
+[28Oct2025 00:57:43.979] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
+[28Oct2025 00:57:44.099] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: OUTDATED Current: 1.9.10 Target: 1.10.1
+[28Oct2025 00:57:44.099] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [inventoryhud] Starting version check at https://raw.githubusercontent.com/DmitryLovin/pluginUpdate/master/invupdate.json
+[28Oct2025 00:57:44.111] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [inventoryhud] Found status: UP_TO_DATE Current: 3.4.26 Target: null
+[28Oct2025 00:57:44.113] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Starting version check at https://raw.githubusercontent.com/Corail31/tombstone_lite/master/update.json
+[28Oct2025 00:57:44.123] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Found status: OUTDATED Current: 8.8.6 Target: 9.0.9
+[28Oct2025 00:57:44.123] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [occultism] Starting version check at https://raw.githubusercontent.com/klikli-dev/occultism/meta/updates.json
+[28Oct2025 00:57:44.133] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [occultism] Found status: BETA Current: 1.140.2 Target: null
+[28Oct2025 00:57:44.134] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzleslib.json
+[28Oct2025 00:57:44.147] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Found status: OUTDATED Current: 8.1.25 Target: 8.1.33
+[28Oct2025 00:57:44.147] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [enchantinginfuser] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/enchantinginfuser.json
+[28Oct2025 00:57:44.157] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [enchantinginfuser] Found status: UP_TO_DATE Current: 8.0.3 Target: null
+[28Oct2025 00:57:46.666] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[28Oct2025 00:57:49.215] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/NEW-REPOSITORY/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23229!/assets/.mcassetsroot' uses unexpected schema
+[28Oct2025 00:57:49.216] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/NEW-REPOSITORY/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23229!/data/.mcassetsroot' uses unexpected schema
+[28Oct2025 00:57:50.894] [main/INFO] [bountiful/]: Adding serverside commands..
+[28Oct2025 00:57:50.977] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
+[28Oct2025 00:57:51.096] [Worker-Main-1/WARN] [artifacts.Artifacts/]: Tag entries for curios:tags/items/magic_book.json cleared by tombstone-1.20.1-8.8.6.jar
+[28Oct2025 00:57:51.146] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag vinery:white_grape as it is missing following references: vinery:savanna_white_grape (from letsdo-vinery-forge-1.4.32.jar), 
+	vinery:taiga_white_grape (from letsdo-vinery-forge-1.4.32.jar), 
+	vinery:jungle_white_grape (from letsdo-vinery-forge-1.4.32.jar)
+[28Oct2025 00:57:51.146] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag vinery:red_grape as it is missing following references: vinery:savanna_red_grape (from letsdo-vinery-forge-1.4.32.jar), 
+	vinery:taiga_red_grape (from letsdo-vinery-forge-1.4.32.jar), 
+	vinery:jungle_red_grape (from letsdo-vinery-forge-1.4.32.jar)
+[28Oct2025 00:57:51.658] [Worker-Main-3/INFO] [epicfight/]: Register animations from epicfight
+[28Oct2025 00:57:52.436] [Worker-Main-3/INFO] [epicfight/]: Register animations from wom
+[28Oct2025 00:57:54.353] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Datapack tried to redefine minecraft:empty loot table, ignoring
+[28Oct2025 00:57:54.652] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe irons_spellbooks:curios/concentration_amulet
+com.google.gson.JsonSyntaxException: Unknown item 'irons_spellbooks:mithril_ingot'
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23229!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151278_(ShapedRecipe.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23229!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43919_(Ingredient.java:219) ~[server-1.20.1-20230612.114412-srg.jar%23229!/:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27) ~[forge-1.20.1-47.3.7-universal.jar%23234!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:148) ~[forge-1.20.1-47.3.7-universal.jar%23234!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_288218_(Ingredient.java:194) ~[server-1.20.1-20230612.114412-srg.jar%23229!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_44210_(ShapedRecipe.java:278) ~[server-1.20.1-20230612.114412-srg.jar%23229!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:306) ~[server-1.20.1-20230612.114412-srg.jar%23229!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:301) ~[server-1.20.1-20230612.114412-srg.jar%23229!/:?]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.20.1-47.3.7-universal.jar%23234!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[server-1.20.1-20230612.114412-srg.jar%23229!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23229!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23229!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23229!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23229!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23229!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23229!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23229!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[28Oct2025 00:57:54.815] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe naturalist:frontier_cap
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'forge:mod_loaded'
+	at net.minecraft.world.item.crafting.RecipeManager.m_220253_(RecipeManager.java:170) ~[server-1.20.1-20230612.114412-srg.jar%23229!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:169) ~[server-1.20.1-20230612.114412-srg.jar%23229!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23229!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23229!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23229!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23229!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23229!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23229!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23229!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[28Oct2025 00:57:54.828] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe naturalist:frontier_cap_alt
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'forge:mod_loaded'
+	at net.minecraft.world.item.crafting.RecipeManager.m_220253_(RecipeManager.java:170) ~[server-1.20.1-20230612.114412-srg.jar%23229!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:169) ~[server-1.20.1-20230612.114412-srg.jar%23229!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23229!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23229!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23229!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23229!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23229!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23229!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23229!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[28Oct2025 00:57:54.889] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 22 recipes
+[28Oct2025 00:57:55.016] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement roundabout:roundabout/dimension_hop: Invalid criterion trigger: roundabout:dimension_hop
+[28Oct2025 00:57:55.073] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 4248 advancements
+[28Oct2025 00:57:55.338] [main/INFO] [bountiful/]: Trying to load unloaded files from: config/bountiful/bounty_pools
+[28Oct2025 00:57:55.345] [main/INFO] [bountiful/]: Trying to load unloaded files from: config/bountiful/bounty_decrees
+[28Oct2025 00:57:55.358] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 14 curio slots
+[28Oct2025 00:57:55.368] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 10 curio entities
+[28Oct2025 00:57:57.334] [main/INFO] [evilcraft/]: 19 Broom modifiers can be applied!
+[28Oct2025 00:57:57.553] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[28Oct2025 00:57:57.554] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[28Oct2025 00:57:57.554] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[28Oct2025 00:57:57.554] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[28Oct2025 00:57:57.629] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[28Oct2025 00:57:57.666] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[28Oct2025 00:57:57.743] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[28Oct2025 00:57:57.743] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[28Oct2025 00:57:57.743] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[28Oct2025 00:57:57.744] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[28Oct2025 00:57:57.788] [Server thread/INFO] [Puzzles Lib/]: Loading server config for enchantinginfuser
+[28Oct2025 00:57:57.790] [Thread-1/INFO] [Puzzles Lib/]: Reloading server config for enchantinginfuser
+[28Oct2025 00:57:58.053] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[28Oct2025 00:58:05.663] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[28Oct2025 00:58:05.664] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[28Oct2025 00:58:05.664] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[28Oct2025 00:58:05.664] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[28Oct2025 00:58:05.664] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[28Oct2025 00:58:05.665] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[28Oct2025 00:58:05.665] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[28Oct2025 00:58:05.665] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+[28Oct2025 00:58:05.665] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[28Oct2025 00:58:05.666] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[28Oct2025 00:58:05.666] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[28Oct2025 00:58:05.666] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[28Oct2025 00:58:05.666] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[28Oct2025 00:58:05.667] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[28Oct2025 00:58:05.667] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[28Oct2025 00:58:05.667] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[28Oct2025 00:58:05.667] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[28Oct2025 00:58:05.667] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[28Oct2025 00:58:05.668] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[28Oct2025 00:58:05.668] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+[28Oct2025 00:58:05.668] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[28Oct2025 00:58:05.668] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[28Oct2025 00:58:05.669] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+[28Oct2025 00:58:05.669] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[28Oct2025 00:58:05.669] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+[28Oct2025 00:58:05.669] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+[28Oct2025 00:58:05.670] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[28Oct2025 00:58:05.670] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[28Oct2025 00:58:05.670] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[28Oct2025 00:58:05.670] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[28Oct2025 00:58:05.671] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[28Oct2025 00:58:05.673] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[28Oct2025 00:58:05.676] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[28Oct2025 00:58:05.676] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[28Oct2025 00:58:05.676] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[28Oct2025 00:58:05.677] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[28Oct2025 00:58:05.677] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[28Oct2025 00:58:06.029] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[28Oct2025 00:58:06.046] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Oct2025 00:58:06.530] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
+[28Oct2025 00:58:07.961] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 69%
+[28Oct2025 00:58:07.991] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 69%
+[28Oct2025 00:58:08.030] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 69%
+[28Oct2025 00:58:08.533] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 69%
+[28Oct2025 00:58:10.556] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 69%
+[28Oct2025 00:58:10.557] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 69%
+[28Oct2025 00:58:10.557] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 69%
+[28Oct2025 00:58:10.558] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 69%
+[28Oct2025 00:58:11.030] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 69%
+[28Oct2025 00:58:11.605] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 69%
+[28Oct2025 00:58:12.106] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 72%
+[28Oct2025 00:58:12.550] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 72%
+[28Oct2025 00:58:12.843] [Server thread/ERROR] [net.minecraft.Util/]: POI data mismatch: already registered at BlockPos{x=112, y=25, z=105}
+[28Oct2025 00:58:13.048] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 74%
+[28Oct2025 00:58:13.607] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 77%
+[28Oct2025 00:58:13.625] [Netty Epoll Server IO #1/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[28Oct2025 00:58:14.038] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 78%
+[28Oct2025 00:58:14.603] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 81%
+[28Oct2025 00:58:15.042] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 82%
+[28Oct2025 00:58:15.362] [Netty Epoll Server IO #2/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[28Oct2025 00:58:15.533] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
+[28Oct2025 00:58:16.041] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 84%
+[28Oct2025 00:58:16.539] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 89%
+[28Oct2025 00:58:17.039] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 99%
+[28Oct2025 00:58:17.048] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 11019 ms
+[28Oct2025 00:58:17.049] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (19.289s)! For help, type "help"
+[28Oct2025 00:58:17.152] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[28Oct2025 00:58:17.168] [Server thread/INFO] [com.becks.uniquedungeons.UniqueDungeons/]: HELLO from server starting
+[28Oct2025 00:58:17.172] [Server thread/INFO] [bountiful/]: Registering Bounty Board Jigsaw Piece for Village Type: plains
+[28Oct2025 00:58:17.174] [Server thread/INFO] [bountiful/]: Registering Bounty Board Jigsaw Piece for Village Type: savanna
+[28Oct2025 00:58:17.174] [Server thread/INFO] [bountiful/]: Registering Bounty Board Jigsaw Piece for Village Type: snowy
+[28Oct2025 00:58:17.174] [Server thread/INFO] [bountiful/]: Registering Bounty Board Jigsaw Piece for Village Type: taiga
+[28Oct2025 00:58:17.174] [Server thread/INFO] [bountiful/]: Registering Bounty Board Jigsaw Piece for Village Type: desert
+[28Oct2025 00:58:17.178] [Server thread/INFO] [cyclopscore/]: Loading infobook /data/cyclopscore/info/test.xml
+[28Oct2025 00:58:17.188] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {iceandfire:fire_dragon_roost=true, iceandfire:fire_lily=true, iceandfire:spawn_dragon_skeleton_fire=true, iceandfire:lightning_dragon_roost=true, iceandfire:spawn_dragon_skeleton_lightning=true, iceandfire:ice_dragon_roost=true, iceandfire:ice_dragon_cave=true, iceandfire:lightning_dragon_cave=true, iceandfire:cyclops_cave=true, iceandfire:spawn_wandering_cyclops=true, iceandfire:spawn_sea_serpent=true, iceandfire:frost_lily=true, iceandfire:hydra_cave=true, iceandfire:lightning_lily=true, iceandfire:pixie_village=true, iceandfire:myrmex_hive_jungle=true, iceandfire:myrmex_hive_desert=true, iceandfire:silver_ore=true, iceandfire:siren_island=true, iceandfire:spawn_dragon_skeleton_ice=true, iceandfire:spawn_stymphalian_bird=true, iceandfire:fire_dragon_cave=true, iceandfire:sapphire_ore=true, iceandfire:spawn_hippocampus=true, iceandfire:spawn_death_worm=true}
+[28Oct2025 00:58:17.189] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {TROLL_S=true, HIPPOGRYPH=true, AMPHITHERE=true, COCKATRICE=true, TROLL_M=true, DREAD_LICH=true, TROLL_F=true}
+[28Oct2025 00:58:17.189] [Server thread/INFO] [evilcraft/]: Loading infobook /data/evilcraft/info/book.xml
+[28Oct2025 00:58:17.236] [Server thread/WARN] [evilcraft/]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:witherer has no valid items
+[28Oct2025 00:58:17.237] [Server thread/WARN] [evilcraft/]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:hungerer has no valid items
+[28Oct2025 00:58:17.237] [Server thread/WARN] [evilcraft/]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:kamikaze has no valid items
+[28Oct2025 00:58:17.237] [Server thread/WARN] [evilcraft/]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:withershield has no valid items
+[28Oct2025 00:58:57.379] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: xentros2[/100.65.41.71:61352] logged in with entity id 1185 at (-174.19934729370888, 86.11153713342911, 178.28814824355894)
+[28Oct2025 00:58:57.401] [Server thread/INFO] [Modonomicon/]: Building books ...
+[28Oct2025 00:58:57.407] [Server thread/INFO] [Modonomicon/]: Books built.
+[28Oct2025 00:58:57.532] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xentros2 joined the game
+[28Oct2025 00:58:57.727] [Server thread/INFO] [tannyjung.tht.ThtMod/]: THT : Run a test to get world height limit and the result is 256.0
+[28Oct2025 00:58:57.730] [Server thread/INFO] [Jade/]: Syncing config to xentros2 (9c08c504-df61-3879-a07c-06ffa630add2)
+[28Oct2025 01:03:23.885] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: ATOM-22[/100.116.208.116:50488] logged in with entity id 5136 at (-186.16656152572662, 63.0, 225.61848842156735)
+[28Oct2025 01:03:23.918] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ATOM-22 joined the game
+[28Oct2025 01:03:23.972] [Server thread/INFO] [Jade/]: Syncing config to ATOM-22 (81bb60f9-84e1-39cd-b8fd-431d6489d949)
+[28Oct2025 01:04:36.260] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ATOM-22: The difficulty has been set to Hard]
+[28Oct2025 01:05:56.884] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Daneg32[/100.87.212.13:50712] logged in with entity id 6919 at (-186.16656152572662, 63.0, 225.61848842156735)
+[28Oct2025 01:05:56.910] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Daneg32 joined the game
+[28Oct2025 01:05:56.971] [Server thread/INFO] [Jade/]: Syncing config to Daneg32 (a4c73440-4cbd-3594-8889-ff6486f03190)
+[28Oct2025 01:07:06.678] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
+[28Oct2025 01:07:26.369] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4692ms or 93 ticks behind
+[28Oct2025 01:07:50.170] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 8843ms or 176 ticks behind
+[28Oct2025 01:08:12.292] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 7165ms or 143 ticks behind
+[28Oct2025 01:08:35.997] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 8720ms or 174 ticks behind
+[28Oct2025 01:09:01.702] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 10725ms or 214 ticks behind
+[28Oct2025 01:09:26.903] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 10225ms or 204 ticks behind
+[28Oct2025 01:09:51.763] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 9885ms or 197 ticks behind
+[28Oct2025 01:09:52.979] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ATOM-22 moved too quickly! -4.928709564195685,1.9011008067621162,8.757097761609373
+[28Oct2025 01:10:15.943] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 9216ms or 184 ticks behind
+[28Oct2025 01:10:37.834] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 6907ms or 138 ticks behind
+[28Oct2025 01:11:00.455] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 7628ms or 152 ticks behind
+[28Oct2025 01:11:22.757] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 7330ms or 146 ticks behind
+[28Oct2025 01:11:45.988] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 8261ms or 165 ticks behind
+[28Oct2025 01:11:52.519] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Daneg32: Teleported Daneg32 to ATOM-22]
+[28Oct2025 01:12:06.198] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5220ms or 104 ticks behind
+[28Oct2025 01:12:14.064] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ATOM-22 was slain by Zombified Piglin
+[28Oct2025 01:12:14.136] [Server thread/INFO] [tombstone/]: The player ATOM-22 has successfully been saved
+[28Oct2025 01:12:27.773] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 6596ms or 131 ticks behind
+[28Oct2025 01:12:44.398] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ATOM-22 was slain by Zombified Piglin
+[28Oct2025 01:12:44.445] [Server thread/INFO] [tombstone/]: The player ATOM-22 has successfully been saved
+[28Oct2025 01:12:45.757] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3030ms or 60 ticks behind
+[28Oct2025 01:13:04.889] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4161ms or 83 ticks behind
+[28Oct2025 01:13:06.993] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ATOM-22 was slain by Zombified Piglin
+[28Oct2025 01:13:07.037] [Server thread/INFO] [tombstone/]: The player ATOM-22 has successfully been saved
+[28Oct2025 01:13:27.737] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 7860ms or 157 ticks behind
+[28Oct2025 01:13:45.090] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2363ms or 47 ticks behind
+[28Oct2025 01:15:04.134] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2007ms or 40 ticks behind
+[28Oct2025 01:15:21.130] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
+[28Oct2025 01:15:38.215] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2088ms or 41 ticks behind
+[28Oct2025 01:16:05.482] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2005ms or 40 ticks behind
+[28Oct2025 01:16:23.005] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2527ms or 50 ticks behind
+[28Oct2025 01:16:40.056] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2079ms or 41 ticks behind
+[28Oct2025 01:16:58.446] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3419ms or 68 ticks behind
+[28Oct2025 01:17:05.223] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Daneg32: Teleported Daneg32 to ATOM-22]
+[28Oct2025 01:18:35.802] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2025ms or 40 ticks behind
+[28Oct2025 01:21:52.573] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ATOM-22: Teleported ATOM-22 to Daneg32]
+[28Oct2025 01:22:23.974] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=112, y=58, z=588} BlockPos{x=111, y=56, z=588}
+[28Oct2025 01:22:24.026] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=112, y=58, z=588} BlockPos{x=111, y=56, z=588}
+[28Oct2025 01:22:24.220] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=112, y=57, z=590} BlockPos{x=111, y=56, z=588}
+[28Oct2025 01:23:03.963] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-440, y=27, z=77} BlockPos{x=-440, y=27, z=78}
+[28Oct2025 01:23:18.633] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-427, y=30, z=64} BlockPos{x=-429, y=29, z=62}
+[28Oct2025 01:23:18.673] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-429, y=28, z=62} BlockPos{x=-429, y=29, z=62}
+[28Oct2025 01:23:25.630] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-443, y=31, z=52} BlockPos{x=-445, y=30, z=51}
+[28Oct2025 01:23:25.766] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-445, y=30, z=52} BlockPos{x=-445, y=30, z=51}
+[28Oct2025 01:23:34.127] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ATOM-22: Teleported Daneg32 to ATOM-22]
+[28Oct2025 01:23:53.865] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-435, y=34, z=68} BlockPos{x=-436, y=35, z=68}
+[28Oct2025 01:24:06.631] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ATOM-22 lost connection: Timed out
+[28Oct2025 01:24:06.632] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ATOM-22 left the game
+[28Oct2025 01:24:29.484] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: ATOM-22[/100.116.208.116:53277] logged in with entity id 25836 at (-460.32437016723225, 33.0, 28.621225669848137)
+[28Oct2025 01:24:29.503] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ATOM-22 joined the game
+[28Oct2025 01:24:29.553] [Server thread/INFO] [Jade/]: Syncing config to ATOM-22 (81bb60f9-84e1-39cd-b8fd-431d6489d949)
+[28Oct2025 01:24:33.532] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-458, y=46, z=74} BlockPos{x=-459, y=46, z=73}
+[28Oct2025 01:24:33.581] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-458, y=46, z=74} BlockPos{x=-459, y=46, z=73}
+[28Oct2025 01:24:33.766] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-460, y=46, z=75} BlockPos{x=-458, y=45, z=74}
+[28Oct2025 01:24:58.132] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ATOM-22 was slain by Crimson Mosquito
+[28Oct2025 01:24:58.162] [Server thread/INFO] [tombstone/]: The player ATOM-22 has successfully been saved
+[28Oct2025 01:25:05.982] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2004ms or 40 ticks behind
+[28Oct2025 01:26:07.022] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Daneg32: Teleported Daneg32 to ATOM-22]
+[28Oct2025 01:27:55.577] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-498, y=39, z=25} BlockPos{x=-497, y=39, z=24}
+[28Oct2025 01:29:20.330] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
+[28Oct2025 01:29:38.737] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3410ms or 68 ticks behind
+[28Oct2025 01:34:12.711] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ATOM-22 had a change of heart
+[28Oct2025 01:34:12.727] [Server thread/INFO] [tombstone/]: The player ATOM-22 has successfully been saved
+[28Oct2025 01:34:16.106] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ATOM-22 lost connection: Timed out
+[28Oct2025 01:34:16.106] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ATOM-22 left the game
+[28Oct2025 01:34:39.674] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: ATOM-22[/100.116.208.116:55776] logged in with entity id 32231 at (-544.9662300189365, 33.0, 20.53597508661462)
+[28Oct2025 01:34:39.693] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ATOM-22 joined the game
+[28Oct2025 01:34:39.747] [Server thread/INFO] [Jade/]: Syncing config to ATOM-22 (81bb60f9-84e1-39cd-b8fd-431d6489d949)
+[28Oct2025 01:35:12.449] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ATOM-22: Teleported ATOM-22 to xentros2]
+[28Oct2025 01:37:38.566] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Daneg32: Teleported Daneg32 to xentros2]
+[28Oct2025 01:37:39.507] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Daneg32 has made the advancement [A Terrible Fortress]
+[28Oct2025 01:39:04.446] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Daneg32 has made the advancement [Spooky Scary Skeleton]
+[28Oct2025 01:39:09.045] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Daneg32 has made the advancement [Into Fire]
+[28Oct2025 01:39:35.571] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ATOM-22 has completed the challenge [Hot Tourist Destinations]
+[28Oct2025 01:39:48.977] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ATOM-22: Teleported ATOM-22 to 113.500000, 59.500000, 627.500000]
+[28Oct2025 01:40:31.856] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ATOM-22: Teleported ATOM-22 to xentros2]
+[28Oct2025 01:40:49.482] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Daneg32 moved too quickly! 1.1757838226771327,-0.568476154729268,-10.043360806057763
+[28Oct2025 01:40:49.499] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 14422ms or 288 ticks behind
+[28Oct2025 01:40:57.268] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Daneg32 moved too quickly! 0.0746330680265288,0.0548933470320776,-10.112135912789427
+[28Oct2025 01:42:11.399] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity mca:female_zombie_villager but it was marked as removed already
+[28Oct2025 01:44:39.413] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2036ms or 40 ticks behind
+[28Oct2025 01:44:49.764] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=67, y=67, z=842} BlockPos{x=67, y=67, z=843}
+[28Oct2025 01:44:57.606] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3229ms or 64 ticks behind
+[28Oct2025 01:45:16.007] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3430ms or 68 ticks behind
+[28Oct2025 01:45:34.241] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3264ms or 65 ticks behind
+[28Oct2025 01:45:36.754] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ATOM-22 moved too quickly! -6.6909639113998765,4.249259575331067,-6.3555837512612925
+[28Oct2025 01:45:38.716] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Daneg32 has made the advancement [Stolen Magic]
+[28Oct2025 01:45:51.396] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2019ms or 40 ticks behind
+[28Oct2025 01:46:08.878] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2501ms or 50 ticks behind
+[28Oct2025 01:46:16.812] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ATOM-22 was slain by Frostmaw
+[28Oct2025 01:46:16.889] [Server thread/INFO] [tombstone/]: The player ATOM-22 has successfully been saved
+[28Oct2025 01:46:26.504] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2627ms or 52 ticks behind
+[28Oct2025 01:46:30.017] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xentros2 has completed the challenge [Rude Awakening]
+[28Oct2025 01:49:06.872] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Daneg32 has made the advancement [Not even afraid of death]
+[28Oct2025 01:49:06.873] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Daneg32 has made the advancement [Back to childhood]
+[28Oct2025 01:50:07.938] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2011ms or 40 ticks behind
+[28Oct2025 01:50:29.647] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 6720ms or 134 ticks behind
+[28Oct2025 01:50:49.181] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4554ms or 91 ticks behind
+[28Oct2025 01:51:17.400] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 13223ms or 264 ticks behind
+[28Oct2025 01:51:38.877] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 6500ms or 130 ticks behind
+[28Oct2025 01:52:01.383] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2005ms or 40 ticks behind
+[28Oct2025 01:52:05.717] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ATOM-22: Teleported ATOM-22 to xentros2]
+[28Oct2025 01:52:31.130] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ATOM-22 moved too quickly! 0.49826533665020634,-11.122186627040477,1.1631419661116524
+[28Oct2025 01:53:08.970] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ATOM-22: Set the weather to clear]
+[28Oct2025 01:53:16.629] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
+[28Oct2025 01:53:32.528] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Daneg32 lost connection: Disconnected
+[28Oct2025 01:53:32.528] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Daneg32 left the game
+[28Oct2025 01:53:36.901] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5274ms or 105 ticks behind
+[28Oct2025 01:53:56.513] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ATOM-22 was slain by Ice Dragon
+[28Oct2025 01:53:56.536] [Server thread/INFO] [tombstone/]: The player ATOM-22 has successfully been saved
+[28Oct2025 01:54:29.523] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ATOM-22 was frozen by Ice Dragon
+[28Oct2025 01:54:29.532] [Server thread/INFO] [tombstone/]: The player ATOM-22 has successfully been saved
+[28Oct2025 01:57:00.635] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity mca:female_zombie_villager but it was marked as removed already
+[28Oct2025 01:57:10.754] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2127ms or 42 ticks behind
+[28Oct2025 01:57:56.477] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2700ms or 54 ticks behind
+[28Oct2025 01:57:56.546] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: xentros2 moved too quickly! -0.4281632774749369,1.76942613362948,-9.911968611539123
+[28Oct2025 01:57:56.552] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ATOM-22 moved too quickly! -5.491675945891757,5.280730554915408,7.3379792646692295
+[28Oct2025 01:59:00.855] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity mca:male_zombie_villager but it was marked as removed already
+[28Oct2025 02:00:58.895] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager VillagerEntityMCA['Ilona'/56421, l='ServerLevel[world]', x=551.71, y=26.26, z=5437.29] died, message: 'Ilona drowned'
+[28Oct2025 02:01:45.084] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2057ms or 41 ticks behind
+[28Oct2025 02:02:01.227] [Worker-Main-3/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[28Oct2025 02:02:01.256] [Worker-Main-3/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[28Oct2025 02:02:10.116] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 10039ms or 200 ticks behind
+[28Oct2025 02:02:29.180] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4103ms or 82 ticks behind
+[28Oct2025 02:02:47.671] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3494ms or 69 ticks behind
+[28Oct2025 02:03:06.138] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2010ms or 40 ticks behind
+[28Oct2025 02:03:18.241] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity mca:male_zombie_villager but it was marked as removed already
+[28Oct2025 02:03:34.378] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
+[28Oct2025 02:03:41.340] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ATOM-22 moved too quickly! -2.8033758973540444,6.523373478989257,-7.390608447763043
+[28Oct2025 02:03:54.589] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2012ms or 40 ticks behind
+[28Oct2025 02:03:59.753] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xentros2 has made the advancement [Surfer Rosa]
+[28Oct2025 02:04:12.114] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2537ms or 50 ticks behind
+[28Oct2025 02:05:53.749] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ATOM-22 was slain by Ghost
+[28Oct2025 02:05:53.778] [Server thread/INFO] [tombstone/]: The player ATOM-22 has successfully been saved
+[28Oct2025 02:08:24.476] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Daneg32[/100.87.212.13:52808] logged in with entity id 69278 at (148.4100120206591, 68.00133597911214, 815.542221045374)
+[28Oct2025 02:08:24.494] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Daneg32 joined the game
+[28Oct2025 02:08:24.504] [Server thread/INFO] [Jade/]: Syncing config to Daneg32 (a4c73440-4cbd-3594-8889-ff6486f03190)
+[28Oct2025 02:08:40.577] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Daneg32> atom revise bultos mx
+[28Oct2025 02:08:46.069] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <ATOM-22> ok
+[28Oct2025 02:09:21.181] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: xentros2 moved too quickly! 1.1127786427674664,-11.661479093414044,-0.10525934440011042
+[28Oct2025 02:10:28.912] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ATOM-22 was slain by Sea Serpent
+[28Oct2025 02:10:28.959] [Server thread/INFO] [tombstone/]: The player ATOM-22 has successfully been saved
+[28Oct2025 02:11:07.732] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ATOM-22 lost connection: Timed out
+[28Oct2025 02:11:07.733] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ATOM-22 left the game
+[28Oct2025 02:11:35.325] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xentros2 has made the advancement [They Have a Cave Troll!]
+[28Oct2025 02:12:01.115] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Daneg32> centros
+[28Oct2025 02:12:06.563] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xentros2> k
+[28Oct2025 02:12:10.478] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Daneg32> me puedo hacer cp a ud?
+[28Oct2025 02:12:24.111] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xentros2> cp no pero tp si
+[28Oct2025 02:12:30.365] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Daneg32> ash
+[28Oct2025 02:12:35.801] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Daneg32: Teleported Daneg32 to xentros2]
+[28Oct2025 02:12:43.365] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Daneg32> quesesto
+[28Oct2025 02:12:50.495] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xentros2> ni iidea
+[28Oct2025 02:12:58.933] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2006ms or 40 ticks behind
+[28Oct2025 02:13:59.598] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xentros2 has made the advancement [Free Willy]
+[28Oct2025 02:13:59.600] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xentros2 has made the advancement [Best Friends Forever]
+[28Oct2025 02:15:05.543] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2016ms or 40 ticks behind
+[28Oct2025 02:15:22.766] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2239ms or 44 ticks behind
+[28Oct2025 02:15:23.413] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hippocampus (vehicle of xentros2) moved too quickly! -2.7159029931518717,0.0,-9.689668005322346
+[28Oct2025 02:15:23.413] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hippocampus (vehicle of xentros2) moved too quickly! -2.9747647518262283,0.0,-10.492023883538423
+[28Oct2025 02:15:23.414] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hippocampus (vehicle of xentros2) moved too quickly! -3.2503220995702122,0.0,-11.287839515035557
+[28Oct2025 02:15:41.298] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2020ms or 40 ticks behind
+[28Oct2025 02:15:51.637] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Daneg32> oe matemos al weather
+[28Oct2025 02:15:59.145] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xentros2> pere
+[28Oct2025 02:15:59.146] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2869ms or 57 ticks behind
+[28Oct2025 02:16:25.198] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xentros2> hagase un reinforce y lo invocamos en una caja reforsada para que no se escape
+[28Oct2025 02:16:36.108] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2031ms or 40 ticks behind
+[28Oct2025 02:16:46.101] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity mca:male_zombie_villager but it was marked as removed already
+[28Oct2025 02:16:55.416] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hippocampus (vehicle of xentros2) moved too quickly! 1.0307549218946406,0.0,-10.56207766962143
+[28Oct2025 02:16:55.416] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hippocampus (vehicle of xentros2) moved too quickly! 1.0640722765353416,0.0,-11.331505485801245
+[28Oct2025 02:16:55.417] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hippocampus (vehicle of xentros2) moved too quickly! 1.0948862689617158,0.0,-12.108130419764166
+[28Oct2025 02:16:55.417] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hippocampus (vehicle of xentros2) moved too quickly! 1.123492295915014,0.0,-12.891103211611153
+[28Oct2025 02:16:55.418] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hippocampus (vehicle of xentros2) moved too quickly! 1.1501508973211116,0.0,-13.679674814111422
+[28Oct2025 02:16:55.418] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hippocampus (vehicle of xentros2) moved too quickly! 1.1750918693945778,0.0,-14.473184567608769
+[28Oct2025 02:16:55.418] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hippocampus (vehicle of xentros2) moved too quickly! 1.1985178923966373,0.0,-15.271049770285572
+[28Oct2025 02:17:57.191] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2614ms or 52 ticks behind
+[28Oct2025 02:18:40.278] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Daneg32: Applied effect Night Vision to Daneg32]
+[28Oct2025 02:19:02.974] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xentros2> mk encontre el meteorito
+[28Oct2025 02:19:08.174] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Daneg32: Teleported Daneg32 to xentros2]
+[28Oct2025 02:19:26.372] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xentros2> ya podemos hacer nuestros stans
+[28Oct2025 02:19:33.222] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Daneg32> bravo
+[28Oct2025 02:20:17.628] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=428, y=68, z=4308} BlockPos{x=429, y=66, z=4309}
+[28Oct2025 02:21:16.816] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[28Oct2025 02:22:17.983] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hippocampus (vehicle of xentros2) moved too quickly! -1.2805936113792313,0.0,-10.5323266886885
+[28Oct2025 02:22:17.983] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hippocampus (vehicle of xentros2) moved too quickly! -1.4922051370231202,0.0,-11.325022913290468
+[28Oct2025 02:22:17.984] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hippocampus (vehicle of xentros2) moved too quickly! -1.7117466814291902,0.0,-12.116493379749954
+[28Oct2025 02:22:17.985] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hippocampus (vehicle of xentros2) moved too quickly! -1.8932838093525106,0.0,-12.913835762521103
+[28Oct2025 02:22:17.985] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hippocampus (vehicle of xentros2) moved too quickly! -2.0413010419379702,0.0,-13.716357175478606
+[28Oct2025 02:22:17.986] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hippocampus (vehicle of xentros2) moved too quickly! -2.159753726835504,0.0,-14.523446493060874
+[28Oct2025 02:22:17.987] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hippocampus (vehicle of xentros2) moved too quickly! -2.2521304806722355,0.0,-15.334564702521675
+[28Oct2025 02:22:17.987] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hippocampus (vehicle of xentros2) moved too quickly! -2.321508263313376,0.0,-16.149236394619948
+[28Oct2025 02:22:54.884] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2007ms or 40 ticks behind
+[28Oct2025 02:23:12.084] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hippocampus (vehicle of xentros2) moved wrongly! 0.3580080465780636
+[28Oct2025 02:23:12.084] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hippocampus (vehicle of xentros2) moved wrongly! 0.3580080465780636
+[28Oct2025 02:23:12.085] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hippocampus (vehicle of xentros2) moved wrongly! 0.3580080465780636
+[28Oct2025 02:23:12.085] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hippocampus (vehicle of xentros2) moved wrongly! 0.3580080465780636
+[28Oct2025 02:23:12.697] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2820ms or 56 ticks behind
+[28Oct2025 02:24:07.757] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2080ms or 41 ticks behind
+[28Oct2025 02:24:15.013] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hippocampus (vehicle of xentros2) moved wrongly! 0.827345796183351
+[28Oct2025 02:24:15.014] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hippocampus (vehicle of xentros2) moved wrongly! 0.827345796183351
+[28Oct2025 02:24:15.020] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hippocampus (vehicle of xentros2) moved wrongly! 0.827345796183351
+[28Oct2025 02:24:15.024] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hippocampus (vehicle of xentros2) moved wrongly! 0.827345796183351
+[28Oct2025 02:24:40.501] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 17774ms or 355 ticks behind
+[28Oct2025 02:25:02.030] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Daneg32 moved too quickly! -10.096996974356102,0.0,-0.005235490147242672
+[28Oct2025 02:25:04.418] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 8941ms or 178 ticks behind
+[28Oct2025 02:26:04.683] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hippocampus (vehicle of xentros2) moved too quickly! 0.8965068240647724,0.0,10.595914633582652
+[28Oct2025 02:26:07.322] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hippocampus (vehicle of xentros2) moved too quickly! -4.924380768479637,0.0,9.316351721681713
+[28Oct2025 02:26:07.323] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hippocampus (vehicle of xentros2) moved too quickly! -5.30229703513703,0.0,10.059431600629068
+[28Oct2025 02:26:34.364] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hippocampus (vehicle of xentros2) moved wrongly! 0.7286396639454438
+[28Oct2025 02:27:59.927] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Daneg32 has made the advancement [Withering Heights]
+[28Oct2025 02:28:44.063] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [xentros2: Teleported xentros2 to Daneg32]
+[28Oct2025 02:29:03.501] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Daneg32 has made the advancement [A second youth]
+[28Oct2025 02:29:08.380] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xentros2 has reached the goal [Strong Undead]
+[28Oct2025 02:29:37.551] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xentros2 has reached the goal [Strong or Careful]
+[28Oct2025 02:29:37.552] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xentros2 withered away
+[28Oct2025 02:29:37.558] [Server thread/INFO] [tombstone/]: The player xentros2 has successfully been saved
+[28Oct2025 02:30:11.705] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [xentros2: Applied effect Night Vision to xentros2]
+[28Oct2025 02:30:22.553] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Daneg32> xde lo mato ?
+[28Oct2025 02:30:37.151] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xentros2> el efecto
+[28Oct2025 02:30:39.894] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Daneg32 has made the advancement [Mutual Aid]
+[28Oct2025 02:30:39.895] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Daneg32 has reached the goal [A little cleaning is necessary]
+[28Oct2025 02:30:55.468] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xentros2 has made the advancement [Withering Heights]
+[28Oct2025 02:31:44.924] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Daneg32 has reached the goal [Strong Undead]
+[28Oct2025 02:32:01.953] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xentros2> tiene arena de almas?
+[28Oct2025 02:32:10.499] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Daneg32 has made the advancement [Your First Receptacle]
+[28Oct2025 02:32:35.394] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Daneg32 has reached the goal [The long arm of the law]
+[28Oct2025 02:33:11.866] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Daneg32> eso depronto le sirva
+[28Oct2025 02:34:45.250] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xentros2 has made the advancement [Your First Receptacle]
+[28Oct2025 02:35:17.902] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Daneg32> agarró la estrella?
+[28Oct2025 02:35:22.452] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xentros2> si
+[28Oct2025 02:35:32.873] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity mca:male_zombie_villager but it was marked as removed already
+[28Oct2025 02:39:21.697] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Daneg32> tiene cabezas??
+[28Oct2025 02:39:37.504] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xentros2> no pip y pues voy a reparar mi armadura
+[28Oct2025 02:41:09.553] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Daneg32: Teleported Daneg32 to xentros2]
+[28Oct2025 02:41:23.563] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Daneg32> vamos a su casa
+[28Oct2025 02:42:57.510] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [xentros2: Teleported xentros2 to -191.500000, 106.500000, -469.500000]
+[28Oct2025 02:43:27.701] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: xentros2 moved too quickly! -229.05514478721634,-20.400001525878906,474.36088443241897
+[28Oct2025 02:43:35.219] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Daneg32> vamos a su casa
+[28Oct2025 02:43:38.886] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Daneg32: Teleported Daneg32 to xentros2]
+[28Oct2025 02:44:00.026] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [xentros2: Teleported xentros2 to -187.500000, 109.500000, -468.500000]
+[28Oct2025 02:44:52.924] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xentros2> pere que vpy a reacuperar lo mio
+[28Oct2025 02:46:24.406] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2028ms or 40 ticks behind
+[28Oct2025 02:46:43.915] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4538ms or 90 ticks behind
+[28Oct2025 02:46:51.427] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: xentros2 moved too quickly! -201.48482601367684,-25.347362074100417,517.0875943582695
+[28Oct2025 02:54:22.804] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xentros2 has made the advancement [A Stronger Material]
+[28Oct2025 02:54:58.998] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xentros2> OLE TIENE DOS PALOS DE GOBER DEL NETHER
+[28Oct2025 02:55:40.861] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Daneg32: Teleported Daneg32 to -329.500000, 71.500000, 582.500000]
+[28Oct2025 02:56:40.963] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Daneg32 has made the advancement [Weather the Worst the Nether can Muster]

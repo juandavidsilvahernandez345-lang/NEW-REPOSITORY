@@ -1,0 +1,53 @@
+{
+    "stand_arrow_poolv3": [
+        "roundabout:justice_disc",
+        "roundabout:soft_and_wet_disc",
+        "roundabout:walking_heart_disc",
+        "roundabout:magicians_red_disc",
+        "roundabout:star_platinum_disc",
+        "roundabout:the_world_disc"
+    ],
+    "stand_arrow_secondary_poolv5": [
+        "roundabout:cinderella_disc",
+        "roundabout:achtung_baby_disc",
+        "roundabout:hey_ya_disc",
+        "roundabout:mandom_disc",
+        "roundabout:survivor_disc"
+    ],
+    "natural_stand_user_mob_poolv5": [
+        "roundabout:justice_disc",
+        "roundabout:soft_and_wet_disc",
+        "roundabout:cinderella_disc",
+        "roundabout:walking_heart_disc",
+        "roundabout:magicians_red_disc",
+        "roundabout:achtung_baby_disc",
+        "roundabout:star_platinum_disc",
+        "roundabout:the_world_disc"
+    ],
+    "food_that_gives_blood_list_v2": [
+        "minecraft:cod:2:0.6F",
+        "minecraft:spider_eye:2:0.6F",
+        "minecraft:chicken:2:0.6F",
+        "minecraft:porkchop:3:0.8F",
+        "minecraft:rabbit:3:0.6F",
+        "minecraft:mutton:2:0.8F",
+        "minecraft:salmon:2:0.8F",
+        "minecraft:beef:3:0.8F",
+        "minecraft:rotten_flesh:2:0.6F"
+    ],
+    "humanoid_only_stand_user_mob_poolv2": [
+        "roundabout:hey_ya_disc",
+        "roundabout:mandom_disc"
+    ],
+    "walking_heart_walk_on_block_blacklist": [
+        "minecraft:barrier"
+    ],
+    "stand_block_grab_blacklist": [
+        "minecraft:ancient_debris",
+        "minecraft:crying_obsidian"
+    ],
+    "natural_stand_user_mob_blacklist": [
+        "minecraft:zombie_horse",
+        "minecraft:vex"
+    ]
+}

@@ -1,0 +1,105 @@
+{
+    "general_settings": {
+        /* Default Value: true */
+        "only_stand_users_can_see_stands": true
+    },
+    /* Default Value: true */
+    "pressing_ability_keys_summons_stands": true,
+    /* Minimum Value: 0 | Maximum Value: 72000 | Default Value: 50 */
+    "max_mirror_renders_at_once_set_to_zero_to_disable": 50,
+    /* Default Value: false */
+    "mirror_flips_rendering": false,
+    /* Default Value: false */
+    "render_gas_splatter_overlay": false,
+    /* Default Value: true */
+    "show_creative_text_on_worthiness_arrow": true,
+    /* Minimum Value: 0 | Maximum Value: 100 | Default Value: 190 */
+    "justice_fog_brightness": 100,
+    /* Default Value: true */
+    "render_justice_hands_while_piloting": true,
+    /* Default Value: true */
+    "render_armor_on_player_clone_abilities": true,
+    /* Default Value: true */
+    "magicians_red_textures_make_it_emmissive": true,
+    /* Default Value: false */
+    "magicians_red_lashes_make_it_emmissive": false,
+    /* Default Value: true */
+    "magicians_red_render_on_fire_in_first_person": true,
+    /* Default Value: true */
+    "mandom_rewind_shows_visual_effects_to_non_mandom_users": true,
+    /* Default Value: true */
+    "mandom_rewind_attempts_to_skip_interpolation": true,
+    /* Minimum Value: 0.0 | Maximum Value: 1.0 | Default Value: 0.44 */
+    "invisible_block_depth_f": 0.44,
+    /* Minimum Value: 0 | Maximum Value: 72000 | Default Value: 50 */
+    "invisible_blocks_distance_away_seen_i": 50,
+    /* Default Value: true */
+    "ability_icon_hud_is_animated": true,
+    /* Minimum Value: 0 | Maximum Value: 72000 | Default Value: 174 */
+    "ability_icon_hud_x": 174,
+    /* Minimum Value: 0 | Maximum Value: 72000 | Default Value: 5 */
+    "ability_icon_hud_y": 5,
+    /* Default Value: true */
+    "enable_bowler_hat_render": true,
+    "config_settings": {
+        /* Offset of the Config Button (stand arrow button) in X coordinates */
+        /* Minimum Value: -1024 | Maximum Value: 1024 | Default Value: 0 */
+        "config_button_offset_x": 0,
+        /* Offset of the Config Button (stand arrow button) in Y coordinates */
+        /* Minimum Value: -1024 | Maximum Value: 1024 | Default Value: 0 */
+        "config_button_offset_y": 0,
+        /* Should Roundabout render the Config Button (stand arrow button) on the main menu? */
+        /* Default Value: true */
+        "should_show_config_button": true
+    },
+    "particle_settings": {
+        /* Default Value: true */
+        "render_justice_particles_in_first_person": true,
+        /* Default Value: false */
+        "render_justice_particles_while_piloting_in_first_person": false,
+        /* Minimum Value: 0 | Maximum Value: 72000 | Default Value: 5 */
+        "justice_fog_particles_per_tick": 5,
+        /* Minimum Value: 0 | Maximum Value: 72000 | Default Value: 3 */
+        "justice_skin_flame_particles_per_tick": 3,
+        /* Minimum Value: 0 | Maximum Value: 72000 | Default Value: 3 */
+        "cfh_ticks_per_flame_particle": 3,
+        /* Minimum Value: 0 | Maximum Value: 72000 | Default Value: 1 */
+        "body_bag_holding_particles_per_five_ticks": 1,
+        /* Minimum Value: 0.0 | Maximum Value: 1.0 | Default Value: 0.01 */
+        "magicians_red_firestorm_embers_rate": 0.01,
+        /* Default Value: true */
+        "meteors_emit_particles": true,
+        /* Minimum Value: 0.0 | Maximum Value: 10.0 | Default Value: 0.46 */
+        "punch_impact_size": 0.46,
+        /* Minimum Value: 0.0 | Maximum Value: 1.0 | Default Value: 0.82 */
+        "punch_impact_opacity": 0.82
+    },
+    "opacity_settings": {
+        /* Minimum Value: 0.0 | Maximum Value: 100.0 | Default Value: 100.0 */
+        "opacity_of_stand": 100.0,
+        /* Minimum Value: 0.0 | Maximum Value: 100.0 | Default Value: 100.0 */
+        "opacity_while_attacking": 100.0,
+        /* Minimum Value: 0.0 | Maximum Value: 100.0 | Default Value: 100.0 */
+        "opacity_of_others": 100.0
+    },
+    "dynamic_settings": {
+        /* Minimum Value: 1 | Maximum Value: 8 | Default Value: 1 */
+        "soft_and_wet_currently_selected_bubble": 1
+    },
+    "vanilla_minecraft_tweaks": {
+        /* Default Value: true */
+        "named_sbr_horse_skins": true,
+        /* Default Value: false */
+        "only_stand_users_can_see_vanilla_ghost_mobs": false,
+        /* Default Value: true */
+        "disable_obvious_experimental_warning": true
+    },
+    "time_stop_settings": {
+        /* Default Value: false */
+        "time_stop_freezes_screen": false,
+        /* Default Value: true */
+        "ts_stands_see_ts_teleport_and_dont_freeze": true,
+        /* Default Value: true */
+        "simple_time_stop_shader": true
+    }
+}
